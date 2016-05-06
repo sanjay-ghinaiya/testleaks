@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <FBAllocationTrackerSummary.h>
 
 @interface TGAllocation : NSObject
 
