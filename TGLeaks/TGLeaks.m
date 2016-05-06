@@ -64,7 +64,7 @@
     for (TGAllocation *class in leaksArray) {
         
         //        NSLog(@"ClassName : %@ Size : %@ Leaks : %@", class.className, class.byteString, class.isLeaks?@"YES":@"NO");
-        leaksData = [leaksData stringByAppendingFormat:@"%@, %lu, %lu, %ld, %lu, %@, %@\n", class.className, (unsigned long)class.allocations, (unsigned long)class.deallocations, (long)class.aliveObjects, (unsigned long)class.instanceSize, class.byteString, class.isLeaks?@"YES":@"NO"];
+        leaksData = [leaksData stringByAppendingFormat:@"%@, %lu, %lu, %ld, %lu, %lu, %@, %@\n", class.className, (unsigned long)class.allocations, (unsigned long)class.deallocations, (long)class.aliveObjects, (unsigned long)class.instanceSize, class.byteCount, class.byteString, class.isLeaks?@"YES":@"NO"];
     }
     leaksData = [leaksData stringByAppendingString:@"EndingLeakData"];
     
