@@ -5,7 +5,7 @@
 
 target 'TGLeaks' do
 
-pod 'FBMemoryProfiler' , '~> 0.1.1’
+pod 'FBMemoryProfiler'
 
 end
 
