@@ -34,7 +34,7 @@ s.source = { :git => "https://github.com/sanjay-ghinaiya/testleaks.git", :tag =>
 s.framework = "UIKit"
 s.framework = "CoreGraphics"
 s.framework = "Foundation"
-s.dependency 'FBMemoryProfiler' , '~> 0.1.1’
+s.dependency 'FBMemoryProfiler' , '~> 0.1.1'
 
 # 8
 s.source_files = "TGLeaks/**/*.{h,m}"
