@@ -40,5 +40,5 @@ s.dependency 'FBMemoryProfiler'
 s.source_files = "TGLeaks/**/*.{h,m}"
 
 # 9
-s.resources = "TGLeaks/**/*.{png,jpeg,jpg,storyboard,xib}"
+# s.resources = "TGLeaks/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
