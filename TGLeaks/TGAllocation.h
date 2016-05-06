@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FBAllocationTrackerSummary.h"
+#import <FBAllocationTrackerSummary.h>
 
 @interface TGAllocation : NSObject
 
@@ -25,8 +25,6 @@
                                aliveObjects:(NSInteger)aliveObjects
                                   className:(nonnull NSString *)className
                                instanceSize:(NSUInteger)instanceSize;
-
-- (nonnull instancetype)initWithAllocationsSummary:(nonnull FBAllocationTrackerSummary *)allocationsSummary;
 
 - (void)updateLeaks:(BOOL)isLeaks;
 

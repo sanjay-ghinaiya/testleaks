@@ -33,26 +33,6 @@
     return self;
 }
 
-- (instancetype)initWithAllocationsSummary:(FBAllocationTrackerSummary *)allocationsSummary
-{
-    if ((self = [super init])) {
-        
-        _allocations = allocationsSummary.allocations;
-        _deallocations = allocationsSummary.deallocations;
-        _aliveObjects = allocationsSummary.aliveObjects;
-        _className = allocationsSummary.className;
-        _instanceSize = allocationsSummary.instanceSize;
-        
-        _byteCount = allocationsSummary.aliveObjects * allocationsSummary.instanceSize;
-        
-        NSByteCountFormatter *_byteCountFormatter = [NSByteCountFormatter new];
-        _byteString = [_byteCountFormatter stringFromByteCount:_byteCount];
-
-    }
-    
-    return self;
-}
-
 - (void)updateLeaks:(BOOL)isLeaks {
 
     _isLeaks = isLeaks;

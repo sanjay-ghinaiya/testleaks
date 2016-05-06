@@ -56,7 +56,7 @@
     for (FBAllocationTrackerSummary *object in _allocdata[[_marks count]-1]) {
         
         if(![object.className containsString:@"__NSCFCalendar"])
-            [array addObject:[[TGAllocation alloc] initWithAllocationsSummary:object]];
+            [array addObject:[[TGAllocation alloc] initWithAllocations:object.allocations deallocations:object.deallocations aliveObjects:object.aliveObjects className:object.className instanceSize:object.instanceSize]];
     }
     
     NSArray *leaksArray = [self _findRetainCyclesForClassesNamed:array inGeneration:0];
