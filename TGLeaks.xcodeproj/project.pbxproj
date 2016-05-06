@@ -10,6 +10,8 @@
 		0B7EC4C44AE53E785F22E383 /* libPods-TGLeaks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E7122FE9EB12D4628B68A3 /* libPods-TGLeaks.a */; };
 		4ADD9E6A1CC95B9600B6AA2B /* TGLeaks.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ADD9E691CC95B9600B6AA2B /* TGLeaks.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4ADD9E721CC95D4000B6AA2B /* TGLeaks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ADD9E711CC95D4000B6AA2B /* TGLeaks.m */; };
+		4AE024B41CDCEEE100B7ECFD /* TGAllocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE024B21CDCEEE100B7ECFD /* TGAllocation.h */; };
+		4AE024B51CDCEEE100B7ECFD /* TGAllocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE024B31CDCEEE100B7ECFD /* TGAllocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		4ADD9E691CC95B9600B6AA2B /* TGLeaks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGLeaks.h; sourceTree = "<group>"; };
 		4ADD9E6B1CC95B9600B6AA2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ADD9E711CC95D4000B6AA2B /* TGLeaks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGLeaks.m; sourceTree = "<group>"; };
+		4AE024B21CDCEEE100B7ECFD /* TGAllocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAllocation.h; sourceTree = "<group>"; };
+		4AE024B31CDCEEE100B7ECFD /* TGAllocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAllocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 		4ADD9E681CC95B9600B6AA2B /* TGLeaks */ = {
 			isa = PBXGroup;
 			children = (
+				4AE024B21CDCEEE100B7ECFD /* TGAllocation.h */,
+				4AE024B31CDCEEE100B7ECFD /* TGAllocation.m */,
 				4ADD9E691CC95B9600B6AA2B /* TGLeaks.h */,
 				4ADD9E711CC95D4000B6AA2B /* TGLeaks.m */,
 				4ADD9E6B1CC95B9600B6AA2B /* Info.plist */,
@@ -87,6 +93,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ADD9E6A1CC95B9600B6AA2B /* TGLeaks.h in Headers */,
+				4AE024B41CDCEEE100B7ECFD /* TGAllocation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE024B51CDCEEE100B7ECFD /* TGAllocation.m in Sources */,
 				4ADD9E721CC95D4000B6AA2B /* TGLeaks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

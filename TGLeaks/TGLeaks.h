@@ -20,10 +20,8 @@ FOUNDATION_EXPORT const unsigned char TGLeaksVersionString[];
 
 + (id)sharedInstance;
 
-
 - (NSArray *)getLeaks;
 
-
-- (NSString *)testLib;
+- (void)createAllocMark:(NSString *)markString;
 
 @end
