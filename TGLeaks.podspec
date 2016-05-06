@@ -8,7 +8,7 @@ s.summary = "TGLeaks lets a user can get leaks."
 s.requires_arc = true
 
 # 2
-s.version = "0.1.0"
+s.version = “0.1.1”
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -40,5 +40,5 @@ s.dependency 'FBMemoryProfiler'
 s.source_files = "TGLeaks/**/*.{h,m}"
 
 # 9
-# s.resources = "TGLeaks/**/*.{png,jpeg,jpg,storyboard,xib}"
+s.resources = "TGLeaks/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
