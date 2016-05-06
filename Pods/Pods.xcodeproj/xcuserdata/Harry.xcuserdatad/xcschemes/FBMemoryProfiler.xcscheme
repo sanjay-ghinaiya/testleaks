@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'FC10614CAD9C3D44624DB460'
+               BlueprintIdentifier = '09B4FB1A87A8439B4E86E602'
                BlueprintName = 'FBMemoryProfiler'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libFBMemoryProfiler.a'>

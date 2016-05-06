@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9734AFE5390A76AA5E827A39'
+               BlueprintIdentifier = '0306C9F69756113BDF106760'
                BlueprintName = 'Pods-TGLeaks'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-TGLeaks.a'>

@@ -1,6 +1,6 @@
 PODS:
-  - FBAllocationTracker (0.1.3)
-  - FBMemoryProfiler (0.1.2):
+  - FBAllocationTracker (0.1.4)
+  - FBMemoryProfiler (0.1.3):
     - FBAllocationTracker (~> 0.1)
     - FBRetainCycleDetector (~> 0.1)
   - FBRetainCycleDetector (0.1.2)
@@ -9,8 +9,8 @@ DEPENDENCIES:
   - FBMemoryProfiler
 
 SPEC CHECKSUMS:
-  FBAllocationTracker: bf649e786f2a7a7c7cffb99d59d3f81a0e9e294b
-  FBMemoryProfiler: bc0d488b31bb18ce5659c80f58c989c837bb7378
+  FBAllocationTracker: 593c329f97edf6c719a9a9d7ce55a2a674d91982
+  FBMemoryProfiler: 623fc5f8a61f7d02ec75c87e3b97c90f621d8b02
   FBRetainCycleDetector: 45462f9ed1af0cd77224a4cc4e6dacaca47371b4
 
 COCOAPODS: 0.39.0
